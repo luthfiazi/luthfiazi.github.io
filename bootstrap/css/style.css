@@ -7,11 +7,13 @@ body {
   margin-top: 30px;
 }
 .jumbotron {
-  /* background-image: url("../img/7.jpg"); */
-  background-color: #1c70e0;
   background-repeat: no-repeat;
-  height: 600px;
+  background: url(/bootstrap/img/1.jpg);
+  background-size: cover;
+  height: 610px;
+  z-index: -1;
 }
+
 .jumbotron h1 {
   margin-top: 230px;
   color: white;
@@ -20,7 +22,7 @@ body {
 .brand {
   color: white !important;
   font-family: "Kaushan Script", cursive;
-  font-size: 25px;
+  font-size: 22px;
 }
 h4 {
   font-family: "Poppins", sans-serif;
