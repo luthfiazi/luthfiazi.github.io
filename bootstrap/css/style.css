@@ -38,11 +38,14 @@ hr {
 section {
   min-height: 600px;
 }
+.about {
+  min-height: 800px;
+}
 .skill {
   background-color: #eee;
 }
 .portfolio {
-  background-color: #eee;
+  background-color: #286090;
   min-height: 800px;
 }
 .contact {
