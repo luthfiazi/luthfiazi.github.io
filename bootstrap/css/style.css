@@ -78,12 +78,12 @@ p {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  transform: translateY(-100%);
+  transform: translateY(-50%);
 }
 
 .animasi-ketikan {
-  animation: ketikan 10s steps(30) 1s 1 normal both,
-    kedip 1000ms steps(30) infinite normal;
+  animation: ketikan 4s steps(25) 1s 1 normal both,
+    kedip 500ms steps(25) infinite normal;
 }
 
 @keyframes ketikan {
