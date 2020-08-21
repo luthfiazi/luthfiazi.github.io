@@ -13,12 +13,12 @@ body {
   height: 600px;
 }
 .jumbotron h1 {
-  margin-top: 130px;
+  margin-top: 230px;
   color: white;
   font-family: "Kaushan Script", cursive;
 }
 .brand {
-  color: white;
+  color: white !important;
   font-family: "Kaushan Script", cursive;
   font-size: 25px;
 }
@@ -65,4 +65,41 @@ p {
   margin: 50px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+}
+
+/* Animasi teks */
+.garis {
+  /* position: relative; */
+  top: 50%;
+  width: 30em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-100%);
+}
+
+.animasi-ketikan {
+  animation: ketikan 10s steps(30) 1s 1 normal both,
+    kedip 1000ms steps(30) infinite normal;
+}
+
+@keyframes ketikan {
+  from {
+    width: 0;
+  }
+  to {
+    width: 19em;
+  }
+}
+
+@keyframes kedip {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
