@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap");
+html {
+  position: relative;
+}
+body {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.jumbotron {
+  background-repeat: no-repeat;
+  background: url(/bootstrap/img/1.jpg);
+  background-size: cover;
+  height: 610px;
+  z-index: -1;
+}
+
+.jumbotron h1 {
+  margin-top: 230px;
+  color: white;
+  font-family: "Kaushan Script", cursive;
+}
+.brand {
+  color: white !important;
+  font-family: "Kaushan Script", cursive;
+  font-size: 22px;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+li {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+hr {
+  width: 250px;
+  border: 2px solid #999;
+}
+section {
+  min-height: 600px;
+}
+.about {
+  min-height: 800px;
+}
+.skill {
+  background-color: #eee;
+}
+.portfolio {
+  background-color: #286090;
+  min-height: 800px;
+}
+.contact {
+  min-height: 50px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  padding-top: 30px;
+}
+footer p {
+  color: #aaa;
+  margin: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+p {
+  color: #aaa;
+  margin: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+/* Animasi teks */
+.garis {
+  /* position: relative; */
+  top: 50%;
+  width: 30em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.animasi-ketikan {
+  animation: ketikan 4s steps(25) 1s 1 normal both,
+    kedip 500ms steps(25) infinite normal;
+}
+
+@keyframes ketikan {
+  from {
+    width: 0;
+  }
+  to {
+    width: 13em;
+  }
+}
+
+@keyframes kedip {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
